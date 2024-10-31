@@ -1,0 +1,186 @@
+.chosen-container {
+    min-width: 50% !important;
+}
+
+.nwaif-clearfix {
+    clear: both;
+}
+
+.nwaif-form-row {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px dotted #c6c6c6;
+}
+.nwaif-form-row label {
+    display: block;
+}
+.nwaif-form-row .form-field {
+    float: left;
+}
+
+input[name="url"] {
+    width: calc( 100% - 110px ) !important;
+}
+
+.nwaif-form-row-stat-lim .form-field {
+    width: 48%;
+    margin: 0px 1% 0px 1%;
+}
+
+.nwaif-form-row-vis .form-field {
+    width: 200px;
+}
+.nwaif-form-row-vis .form-field:nth-child( 2 ) {
+    margin-left: 20px;
+    width: calc( 100% - 220px );
+}
+
+.nwaif-form-row-img {
+    margin-top: 10px;
+}
+.nwaif-form-row-img .form-field {
+    margin: 0px 10px 0px 10px;
+}
+.nwaif-form-row-img .form-field:nth-child( 1 ) {
+    width: 100px;
+    margin-left: 0px;
+}
+.nwaif-form-row-img .form-field:nth-child( 2 ) {
+    width: 150px;
+}
+.nwaif-form-row-img .form-field:nth-child( 3 ) {
+    width: calc( 100% - 300px );
+}
+.nwaif-form-row-img .form-field:nth-child( 3 ).nwaif-image-active {
+    width: calc( 100% - 510px );
+}
+.nwaif-form-row-img .form-field:nth-child( 4 ) {
+    width: 200px;
+    height: 100%;
+    margin-right: 0px;
+}
+.nwaif-form-row-img .form-field:nth-child( 4 ) img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nwaif-form-row-tem-aut .form-field {
+    width: 48%;
+    margin: 0px 1% 0px 1%;
+}
+
+.nwaif-form-row-cat-tag .form-field {
+    width: 46%;
+    margin: 0px 1% 0px 1%;
+}
+input[name="categories_add"] {
+    width: calc( 100% - 110px ) !important;
+}
+input[name="tags_add"] {
+    width: calc( 100% - 80px ) !important;
+}
+input[name="exclude_keywords_add"] {
+    width: calc( 100% - 105px ) !important;
+}
+.nwaif-form-row-cat-tag .chosen-container {
+    width: 100% !important;
+}
+
+.nwaif-form-row-exclude-cat {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.nwaif-form-row-exclude-cat .form-field {
+    width: 46%;
+    margin-left: 1%;
+}
+.nwaif-form-row-exclude-cat .form-field select {
+    width: 100%;
+}
+
+.form-field p {
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nwaif-label {
+    display: block;
+    font-weight: bold;
+}
+
+#submit-btn {
+    margin-top: 25px;
+}
+
+#wpfooter {
+    position: relative !important;
+}
+
+.nwaif-error {
+    margin: 5px 0 15px;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px !important;
+    border-left-color: #d63638 !important;
+    padding-left: 5px !important;
+}
+
+/* tabs */
+#nwaif-tabs {
+    background: #fff;
+    height: auto;
+    margin-top: 20px;
+}
+
+#nwaif-tabs ul#nwaif-tabs-list {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#nwaif-tabs ul#nwaif-tabs-list li {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f1;
+    border: solid #2271b1;
+    border-width: 0px 1px 1px 0px;
+}
+#nwaif-tabs ul#nwaif-tabs-list li.active {
+    font-weight: bold;
+    border-right: 0px;
+    background-color: white;
+}
+#nwaif-tabs ul#nwaif-tabs-list li.error {
+    border-left: 4px solid #d63638;
+}
+
+#nwaif-tabs ul#nwaif-tabs-list li a {
+    display: block;
+    padding: 15px 0;
+    outline: none;
+    text-decoration: none;
+}
+
+#nwaif-tabs ul#nwaif-tabs-list li:hover a {
+    text-decoration: underline;
+}
+
+#nwaif-tabs #nwaif-tabs-container {
+    background: #fff;
+    padding-top: 5px;
+    padding-left: 120px;
+}
+
+#nwaif-tabs #nwaif-tabs-container .nwaif-tabs-tab {
+    display: none;
+}
+
+#nwaif-tabs #nwaif-tabs-container .nwaif-tabs-tab.active {
+    display: block;
+}
+/* tabs */
